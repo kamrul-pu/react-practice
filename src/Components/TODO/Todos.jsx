@@ -1,6 +1,5 @@
-import React from 'react'
-import Todo from './Todo'
-import NewTodo from './NewTodo';
+import React from 'react';
+import Todo from './Todo';
 
 export default function Todos(props) {
     const todos = props.todos.map((item, i) => {
