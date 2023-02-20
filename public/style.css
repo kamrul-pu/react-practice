@@ -1,0 +1,33 @@
+.hStyle {
+    color: white;
+    font-size: 40;
+    background-color: rgb(4, 119, 96);
+}
+
+.largeText {
+    font-size: 50px;
+}
+
+.Card {
+    background-color: #ffda77;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    margin: 10px;
+    width: 390px;
+    display: inline-block;
+}
+
+.cardTitle {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cardDesc {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.cardFooter {
+    text-align: center;
+    font-weight: bold;
+}

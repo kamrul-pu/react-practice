@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 4",
+        "price": "200",
+        "rating": "3.5",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos unde rem accusantium assumenda aut nobis ullam. Sunt perspiciatis dolores aperiam. Saepe eligendi aut aliquid fugit obcaecati aspernatur animi nobis tenetur?",
+        "img": "/images/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Iphone 5",
+        "price": "220",
+        "rating": "4.5",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos unde rem accusantium assumenda aut nobis ullam. Sunt perspiciatis dolores aperiam. Saepe eligendi aut aliquid fugit obcaecati aspernatur animi nobis tenetur?",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Iphone 7",
+        "price": "290",
+        "rating": "3.5",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos unde rem accusantium assumenda aut nobis ullam. Sunt perspiciatis dolores aperiam. Saepe eligendi aut aliquid fugit obcaecati aspernatur animi nobis tenetur?",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Iphone 8",
+        "price": "300",
+        "rating": "5.5",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos unde rem accusantium assumenda aut nobis ullam. Sunt perspiciatis dolores aperiam. Saepe eligendi aut aliquid fugit obcaecati aspernatur animi nobis tenetur?",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Iphone 10",
+        "price": "600",
+        "rating": "6.5",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos unde rem accusantium assumenda aut nobis ullam. Sunt perspiciatis dolores aperiam. Saepe eligendi aut aliquid fugit obcaecati aspernatur animi nobis tenetur?",
+        "img": "images/1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Iphone 11",
+        "price": "699",
+        "rating": "7.0",
+        "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos unde rem accusantium assumenda aut nobis ullam. Sunt perspiciatis dolores aperiam. Saepe eligendi aut aliquid fugit obcaecati aspernatur animi nobis tenetur?",
+        "img": "images/1.jpg"
+    }
+]

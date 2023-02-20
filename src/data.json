@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Python",
+        "desc": "This is a popular Language",
+        "footer": "Awesome to write"
+    },
+    {
+        "title": "CPP",
+        "desc": "Best System level language",
+        "footer": "Hard to write"
+    },
+    {
+        "title": "Java",
+        "desc": "Looks Booring but great for software development",
+        "footer": "Booring to write"
+    },
+    {
+        "title": "Javascript",
+        "desc": "One of the best popular language nowadays",
+        "footer": "Learn one use everywhere"
+    }
+]
