@@ -11,7 +11,8 @@ export default function NewTodo(props) {
         console.log(todo);
         // setTodo(todo);
         props.addTodo(todo);
-        console.log(props);
+        setTodo({ title: '', desc: '' });
+
     }
     return (
         <div>

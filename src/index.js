@@ -5,18 +5,16 @@ import "font-awesome/css/font-awesome.min.css";
 // import App from './Components/TODO_APP/App';
 // import Toggle from './Components/Toggle/Toggle';
 // import FAQS from './Components/FAQ/FAQS';
-import Todos from './Components/Assignment3/Todos';
-import "./index.css";
+// import Todos from './Components/Assignment3/Todos';
+
+import RHook from './Components/Hooks/RHook';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-    {/* <App />\ */}
-    {/* <Toggle /> */}
-    {/* <FAQS /> */}
-    <Todos />
+    <RHook />
   </div>
 );
 
