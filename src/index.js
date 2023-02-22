@@ -9,14 +9,15 @@ import "font-awesome/css/font-awesome.min.css";
 
 // import RHook from './Components/Hooks/RHook';
 // import DataFetch from './Components/Hooks/DataFetch';
-import CustomHooks from './Components/Hooks/CustomHooks';
-
+// import CustomHooks from './Components/Hooks/CustomHooks';
+import App from './Components/Assignment4/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-    <CustomHooks />
+    {/* <CustomHooks /> */}
+    <App />
   </div>
 );
 
