@@ -9,11 +9,11 @@ export default function RHook() {
     // useEffect(() => {
     //     //Without defendency calls every time
     //     console.log('useEffect');
-    // }, []);
+    // }, []); [] useEffect First Time
     useEffect(() => {
         //Without defendency calls every time
         console.log('useEffect');
-    }, [count]); //[] useEffect First Time
+    }, [count]); //count is dependent
     console.log('rendering');
     return (
         <div>

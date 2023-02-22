@@ -7,14 +7,16 @@ import "font-awesome/css/font-awesome.min.css";
 // import FAQS from './Components/FAQ/FAQS';
 // import Todos from './Components/Assignment3/Todos';
 
-import RHook from './Components/Hooks/RHook';
+// import RHook from './Components/Hooks/RHook';
+// import DataFetch from './Components/Hooks/DataFetch';
+import CustomHooks from './Components/Hooks/CustomHooks';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-    <RHook />
+    <CustomHooks />
   </div>
 );
 
