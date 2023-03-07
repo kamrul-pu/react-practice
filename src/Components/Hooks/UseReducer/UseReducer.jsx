@@ -11,17 +11,19 @@ const Modal = ({ modalText }) => {
     return (<p>{modalText}</p>);
 }
 
+const initialState = {
+    books: booksData,
+    isModalOpen: false,
+    modalText: ""
+}
+
 
 const UseReducer = () => {
     // const [books, setBooks] = useState(booksData);
 
     // const [modalText, setModalText] = useState("");
     // const [isModalOpen, setIsModalOpen] = useState(false);
-    const [bookState, dispatch] = useReducer(reducer, {
-        books: booksData,
-        isModalOpen: false,
-        modalText: ""
-    })
+    const [bookState, dispatch] = useReducer(reducer, initialState);
     const [bookName, setBookName] = useState("");
 
     const handleSubmit = (e) => {
