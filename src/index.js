@@ -10,13 +10,19 @@ import "font-awesome/css/font-awesome.min.css";
 // import RHook from './Components/Hooks/RHook';
 // import DataFetch from './Components/Hooks/DataFetch';
 // import CustomHooks from './Components/Hooks/CustomHooks';
-import App from './Components/Assignment4/App';
+// import App from './Components/Assignment4/App';
+// import DynamicStyle from './Components/DynamicStyle/DynamicStyle';
+// import App from './Components/App';
+// import LifeCycle from './Components/ClassComponent/LifeCycle';
+// import App from './Components/PropsType/App';
+// import App from './Components/RefExample/App';
+import App from './Components/App';
+import UserForm from './Components/Hooks/UserForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <div>
-    {/* <CustomHooks /> */}
     <App />
   </div>
 );

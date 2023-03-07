@@ -1,0 +1,12 @@
+.valid {
+    background-color: green;
+    font-size: 25;
+    color: red;
+}
+
+.invalid {
+    background-color: red;
+    font-size: 25;
+    color: green;
+
+}
