@@ -1,4 +1,5 @@
-import React, { useState, useReducer } from 'react'
+import React, { useState, useReducer } from 'react';
+import reducer from './Reducer';
 
 const booksData = [
     { id: 1, name: 'Pather panchal' },
@@ -10,29 +11,7 @@ const Modal = ({ modalText }) => {
     return (<p>{modalText}</p>);
 }
 
-const reducer = (state, action) => {
-    //action.type action.payload
-    if (action.type === 'ADD') {
-        const allBooks = [...state.books, action.payload];
-        return {
-            ...state,
-            books: allBooks,
-            isModalOpen: true,
-            modalText: "New Book Added"
-        }
-    }
-    if (action.type === "REMOVE") {
-        //remove books
-        const filteredBooks = [...state.books].filter(book => book.id !== action.payload);
-        return {
-            ...state,
-            books: filteredBooks,
-            isModalOpen: true,
-            modalText: "Book is removed",
-        }
-    }
-    return state;
-}
+
 const UseReducer = () => {
     // const [books, setBooks] = useState(booksData);
 
