@@ -2,11 +2,13 @@ import React, { Fragment } from 'react';
 // import LifeCycle from './ClassComponent/LifeCycle';
 import UseReducer from './Hooks/UseReducer/UseReducer';
 import Component1 from './Prop_Driling/Component1';
+import ReactMemo from './ReactMemo/ReactMemo';
 
 const App = () => {
     return (
         <div>
-            <Component1 />
+            <ReactMemo />
+            {/* <Component1 /> */}
             {/* <UseReducer /> */}
             {/* <>
                 <React.Fragment>
